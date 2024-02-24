@@ -1,8 +1,16 @@
+import { GlobalStyle } from './styles'
+
+import Apresentation from './containers/Apresentation'
+
 function App() {
   return (
-    <div className="App">
-      <h1>Olá</h1>
-    </div>
+    <>
+      <GlobalStyle />
+      <div className="container">
+        <Apresentation />
+        <div style={{ outline: '1px solid white', height: '100vh' }}></div>
+      </div>
+    </>
   )
 }
 
