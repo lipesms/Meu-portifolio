@@ -29,7 +29,7 @@ export const PerfilImage = styled.div`
   }
 
   @media (max-width: 1023px) {
-    max-width: 30%;
+    max-width: 45%;
 
     .square {
       bottom: -10px;

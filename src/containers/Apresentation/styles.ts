@@ -14,7 +14,7 @@ export const ApresentationContainer = styled.div`
   }
 
   @media (max-width: 640px) {
-    gap: 22px;
+    margin: 0 24px;
   }
 `
 
@@ -24,5 +24,11 @@ export const NameContainer = styled.div`
 
   @media (max-width: 1023px) {
     padding-left: 36px;
+  }
+  @media (max-width: 640px) {
+    padding-left: 32px;
+  }
+  @media (max-width: 500px) {
+    padding-left: 16px;
   }
 `
