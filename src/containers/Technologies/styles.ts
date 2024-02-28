@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
-export const TechnologiesContainer = styled.div`
-  margin-top: 56px;
+import variables from '../../styles/variables'
 
+export const TechnologiesContainer = styled.div`
   h2 {
     font-size: 32px;
     font-weight: 600;
@@ -20,7 +20,7 @@ export const Technology = styled.div`
   margin-bottom: 1.5rem;
   margin-right: 1.5rem;
   font-size: 1.6rem;
-  background: rgb(255 255 255 / 50%);
+  background: ${variables.cinzaClaro};
   border-radius: 5px;
   font-weight: 600;
   color: #000;

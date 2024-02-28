@@ -8,6 +8,7 @@ import Apresentation from './containers/Apresentation'
 import AboutMe from './containers/AboutMe'
 import Technologies from './containers/Technologies'
 import Projects from './containers/Projects'
+import Footer from './containers/Footer'
 
 function App() {
   return (
@@ -15,10 +16,11 @@ function App() {
       <GlobalStyle />
       <div className="container">
         <Apresentation />
-        <div>
+        <div className="content">
           <AboutMe />
           <Technologies />
           <Projects />
+          <Footer />
         </div>
       </div>
     </Provider>

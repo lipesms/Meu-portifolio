@@ -12,7 +12,7 @@ html {
     list-style: none;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
-
+    font-size: 1.1rem;
   }
 
   body{
@@ -32,7 +32,9 @@ html {
   }
 
   .content{
-
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
   }
 
   @media (max-width: 1023px) {

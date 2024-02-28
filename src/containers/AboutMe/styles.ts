@@ -7,7 +7,6 @@ export const AboutMeSection = styled.section`
   justify-content: space-between;
   gap: 32px;
 
-  min-height: calc(100vh - 160px);
   padding-top: 24px;
 
   p {

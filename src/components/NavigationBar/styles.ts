@@ -17,7 +17,7 @@ export const NavBar = styled.ul`
       border-bottom: 2px solid #fff;
     }
     &:hover {
-      border-bottom: 2px solid ${variables.cinzaClaro};
+      border-bottom: 2px solid ${variables.branco};
     }
   }
 
