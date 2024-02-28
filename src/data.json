@@ -1,0 +1,48 @@
+{
+  "aboutMe": {
+    "title": "Olá, meu nome é Felipe. Prazer em te conhecer.",
+    "description": "Desde que comecei meus estudos, por volta dos 17 anos, passei por diversas linguagens de programação, sendo que quando me atrevi a aprender o que era HTML acabei me identificando com as tecnologias de front-end, e desde então não larguei mais. Desenvolvi diversos projetos, desde landpages para grandes eventos, softwares de suporte e reimaginação de layouts de empresas.Meu foco agora está em continuar me aprimorando nas tecnologias mais utilizadas no mercado e adentrar o mercado para colocar meus conhecimentos em prol de uma empresa, buscando o desenvolvimento meu, e do meu ambiente de trabalho. No meu tempo livre você vai me ver lendo, saindo pra lugares exóticos com minha namorada, e também sigo com programação, onde desenvolvo pequenos jogos em GML com minha irmã."
+  },
+  "projects": [
+    {
+      "title": "Beetlejuice: O musical",
+      "description": "O projeto se trata de uma landpage com foco em passar informações da peça de teatro da broadway: “Beetlejuice - O musical, o musical, o musical” dentro de um design conciso e com foco na experiencia do usuário.",
+      "image": "./assets/beetlejuice.png"
+    },
+    {
+      "title": "Sunnyside!",
+      "description": "O site Critiquei! é uma página voltada para reunir criticas de cinema e medir a satisfação dos espectadores com determinada experiência. seja um filme ou uma série.",
+      "image": "./assets/critiquei.png"
+    },
+    {
+      "title": "Critiquei!",
+      "description": "A site Sunnyside é uma empresa voltada para o auxilio e suporte criativo de sua empresa, ou projeto. Com isso foi desenvolvida uma landingpage onde os conceitos e valores da empresa possam estar claros a possiveis clientes.",
+      "image": "./assets/sunnyside.png"
+    }
+  ],
+  "technologies": [
+    {
+      "my-languages": [
+        "Html",
+        "Css",
+        "Javascript",
+        "React",
+        "Less",
+        "Sass",
+        "Typescript"
+      ],
+      "tools": [
+        "redux",
+        "Rest API",
+        "Jest",
+        "Git",
+        "Grunt",
+        "Github",
+        "VScode",
+        "Cypress",
+        "JQuery",
+        "Bootstrap"
+      ]
+    }
+  ]
+}
