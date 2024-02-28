@@ -1,7 +1,11 @@
 {
   "aboutMe": {
     "title": "Olá, meu nome é Felipe. Prazer em te conhecer.",
-    "description": "Desde que comecei meus estudos, por volta dos 17 anos, passei por diversas linguagens de programação, sendo que quando me atrevi a aprender o que era HTML acabei me identificando com as tecnologias de front-end, e desde então não larguei mais. Desenvolvi diversos projetos, desde landpages para grandes eventos, softwares de suporte e reimaginação de layouts de empresas.Meu foco agora está em continuar me aprimorando nas tecnologias mais utilizadas no mercado e adentrar o mercado para colocar meus conhecimentos em prol de uma empresa, buscando o desenvolvimento meu, e do meu ambiente de trabalho. No meu tempo livre você vai me ver lendo, saindo pra lugares exóticos com minha namorada, e também sigo com programação, onde desenvolvo pequenos jogos em GML com minha irmã."
+    "description": [
+      "Desde que comecei meus estudos, por volta dos 17 anos, passei por diversas linguagens de programação, sendo que quando me atrevi a aprender o que era HTML acabei me identificando com as tecnologias de front-end, e desde então não larguei mais. Desenvolvi diversos projetos, desde landpages para grandes eventos, softwares de suporte e reimaginação de layouts de empresas.",
+      "Meu foco agora está em continuar me aprimorando nas tecnologias mais utilizadas no mercado e adentrar o mercado para colocar meus conhecimentos em prol de uma empresa, buscando o desenvolvimento meu, e do meu ambiente de trabalho.",
+      "No meu tempo livre você vai me ver lendo, saindo pra lugares exóticos com minha namorada, e também sigo com programação, onde desenvolvo pequenos jogos em GML com minha irmã."
+    ]
   },
   "projects": [
     {
@@ -21,7 +25,7 @@
     }
   ],
   "technologies":{
-    "my-languages": [
+    "myLanguages": [
       "Html",
       "Css",
       "Javascript",
