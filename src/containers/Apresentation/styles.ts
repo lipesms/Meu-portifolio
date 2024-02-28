@@ -5,7 +5,6 @@ export const ApresentationContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 48px;
 
   @media (max-width: 1023px) {
     position: relative;
@@ -20,5 +19,10 @@ export const ApresentationContainer = styled.div`
 `
 
 export const NameContainer = styled.div`
+  margin: 64px 0 40px;
   text-align: center;
+
+  @media (max-width: 1023px) {
+    padding-left: 36px;
+  }
 `

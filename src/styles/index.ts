@@ -2,17 +2,22 @@ import { createGlobalStyle, styled } from 'styled-components'
 import variables from './variables'
 
 export const GlobalStyle = createGlobalStyle`
+
+html {
+  scroll-behavior: smooth;
+}
   *{
     margin: 0;
     padding:0;
     list-style: none;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
+
   }
 
   body{
     background-image: linear-gradient(330deg, ${variables.brancoAzulado}, ${variables.roxo});
-    padding: 64px 0;
+    padding: 80px 0;
   }
 
   .container{
@@ -21,9 +26,15 @@ export const GlobalStyle = createGlobalStyle`
     max-width: 1300px;
     width: 100%;
     margin: 0 auto;
-    padding: 48px;
+    padding: 0 48px;
+    gap: 22px;
 
   }
+
+  .content{
+
+  }
+
   @media (max-width: 1023px) {
     body{
       padding: 0;

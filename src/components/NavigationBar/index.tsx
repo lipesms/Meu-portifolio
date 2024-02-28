@@ -4,11 +4,11 @@ const NavigationBar = () => {
   return (
     <S.NavBar>
       <li>
-        <a href="">Sobre mim</a>
+        <a href="#aboutMe">Sobre mim</a>
       </li>
       <li>-</li>
       <li>
-        <a href="">Tecnologias</a>
+        <a href="#technologies">Tecnologias</a>
       </li>
       <li>-</li>
       <li>
