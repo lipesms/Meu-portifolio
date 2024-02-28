@@ -19,7 +19,7 @@ export const Technology = styled.div`
   padding: 1rem 2rem;
   margin-bottom: 1.5rem;
   margin-right: 1.5rem;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   background: ${variables.cinzaClaro};
   border-radius: 5px;
   font-weight: 600;
