@@ -10,7 +10,7 @@ export const NavBar = styled.ul`
     padding: 0 8px 4px;
     text-decoration: none;
     font-size: 18px;
-    color: black;
+    color: #fff;
     transition: border 0.2s ease-out;
 
     &.active {

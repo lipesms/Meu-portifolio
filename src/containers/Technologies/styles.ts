@@ -24,4 +24,11 @@ export const Technology = styled.div`
   border-radius: 5px;
   font-weight: 600;
   color: #000;
+
+  @media (max-width: 640px) {
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    font-size: 18px;
+  }
 `

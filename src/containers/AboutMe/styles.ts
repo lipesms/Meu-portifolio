@@ -26,5 +26,10 @@ export const AboutMeTitle = styled(SecondTitle)`
 export const profileLinks = styled.div`
   align-self: end;
   display: flex;
-  gap: 8px;
+  gap: 16px;
+  max-width: 200px;
+
+  img {
+    width: 100%;
+  }
 `

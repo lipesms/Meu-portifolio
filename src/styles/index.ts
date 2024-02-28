@@ -13,10 +13,11 @@ html {
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
     font-size: 1.1rem;
+    color: #fff;
   }
 
   body{
-    background-image: linear-gradient(330deg, ${variables.brancoAzulado}, ${variables.roxo});
+    background-image: linear-gradient(330deg, ${variables.brancoAzulado}, ${variables.preto});
     padding: 80px 0;
   }
 

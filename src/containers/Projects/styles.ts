@@ -24,7 +24,7 @@ export const Project = styled.div`
     background: ${variables.cinzaClaro};
 
     h3 {
-      color: ${variables.roxoClaro};
+      color: ${variables.azulClaro};
     }
   }
 

@@ -6,5 +6,7 @@ export default {
   branco: '#dbd9d9',
   roxoClaro: '#7a46a0',
   azulMassinha: '#94a3b8',
-  pretoClaro: '#1c161c'
+  azulClaro: '#caf8ff',
+  pretoClaro: '#1c161c',
+  preto: 'rgb(30 30 30)'
 }
