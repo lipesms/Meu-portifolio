@@ -11,17 +11,17 @@
     {
       "title": "Beetlejuice: O musical",
       "description": "O projeto se trata de uma landpage com foco em passar informações da peça de teatro da broadway: “Beetlejuice - O musical, o musical, o musical” dentro de um design conciso e com foco na experiencia do usuário.",
-      "image": "./assets/beetlejuice.png"
+      "image": "../../assets/beetlejuice.png"
     },
     {
       "title": "Sunnyside!",
       "description": "O site Critiquei! é uma página voltada para reunir criticas de cinema e medir a satisfação dos espectadores com determinada experiência. seja um filme ou uma série.",
-      "image": "./assets/critiquei.png"
+      "image": "../../assets/sunnyside.png"
     },
     {
       "title": "Critiquei!",
       "description": "A site Sunnyside é uma empresa voltada para o auxilio e suporte criativo de sua empresa, ou projeto. Com isso foi desenvolvida uma landingpage onde os conceitos e valores da empresa possam estar claros a possiveis clientes.",
-      "image": "./assets/sunnyside.png"
+      "image": "../../assets/critiquei.png"
     }
   ],
   "technologies":{
