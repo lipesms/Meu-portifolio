@@ -16,7 +16,7 @@ export const Technologies = styled.div`
 `
 
 export const Technology = styled.div`
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
   margin-bottom: 1.5rem;
   margin-right: 1.5rem;
   font-size: 1.3rem;
