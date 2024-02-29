@@ -15,7 +15,7 @@ const Apresentation = () => {
   const dispatch = useDispatch()
 
   useEffect(() => {
-    fetch('https://lipesms.github.io/Meu-portifolio/src/data.json')
+    fetch('https://lipesms.github.io/lsms/src/data.json')
       .then((resp) => resp.json())
       .then((data) => {
         dispatch(addProjects(data.projects))
