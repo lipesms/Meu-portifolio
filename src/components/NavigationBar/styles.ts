@@ -7,17 +7,22 @@ export const NavBar = styled.ul`
   gap: 20px;
 
   a {
-    padding: 0 8px 4px;
     text-decoration: none;
     font-size: 18px;
     color: #fff;
     transition: border 0.2s ease-out;
+    padding: 0px 4px;
 
-    &.active {
-      border-bottom: 2px solid #fff;
-    }
+    transition: padding 0.1s;
+
     &:hover {
       border-bottom: 2px solid ${variables.branco};
+      padding-bottom: 6px;
+    }
+
+    &.active {
+      padding-bottom: 6px;
+      border-bottom: 2px solid #fff;
     }
   }
 

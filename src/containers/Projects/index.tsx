@@ -7,10 +7,8 @@ import * as S from './styles'
 const Projects = () => {
   const { itens } = useSelector((state: RootReducer) => state.projects)
 
-  console.log(itens[0].image)
-
   return (
-    <S.Projects>
+    <S.Projects id="projects">
       {itens.map((project) => (
         <a href="" key={project.title}>
           <S.Project>

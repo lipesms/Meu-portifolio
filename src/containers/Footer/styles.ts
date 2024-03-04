@@ -3,10 +3,27 @@ import variables from '../../styles/variables'
 
 export const Foot = styled.footer`
   display: flex;
+  position: relative;
   flex-direction: column;
   gap: 32px;
   margin-top: 164px;
   color: ${variables.pretoClaro};
+
+  .up {
+    position: absolute;
+    text-decoration: none;
+    bottom: -64px;
+    right: -10px;
+    transition: padding 0.4s;
+
+    img {
+      max-width: 48px;
+    }
+
+    &:hover {
+      padding-bottom: 8px;
+    }
+  }
 `
 
 export const DevelopmentInfos = styled.p`
