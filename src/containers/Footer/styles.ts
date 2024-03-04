@@ -23,6 +23,10 @@ export const Foot = styled.footer`
     &:hover {
       padding-bottom: 8px;
     }
+
+    @media (max-width: 640px) {
+      bottom: -10px;
+    }
   }
 `
 
@@ -45,4 +49,8 @@ export const DevelopmentInfos = styled.p`
 export const Copy = styled.p`
   font-size: 14px;
   align-self: flex-end;
+
+  @media (max-width: 640px) {
+    align-self: flex-start;
+  }
 `

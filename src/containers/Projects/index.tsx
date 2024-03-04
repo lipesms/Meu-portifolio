@@ -23,6 +23,9 @@ const Projects = () => {
           </S.Project>
         </a>
       ))}
+      <S.SeeMore href="https://github.com/lipesms">
+        Veja mais projetos no meu github →
+      </S.SeeMore>
     </S.Projects>
   )
 }

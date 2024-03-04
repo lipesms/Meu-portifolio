@@ -1,6 +1,6 @@
 import * as S from './styles'
 
-import pointingUp from '../../assets/pointing_up.png'
+import pointingUp from '../../assets/icons/pointing_up.png'
 
 const Footer = () => {
   return (
@@ -15,8 +15,8 @@ const Footer = () => {
         <a href="https://www.flaticon.com/br/">flaticon</a>.
       </S.DevelopmentInfos>
       <S.Copy>© Copyright 2024. Feito por Felipe Martins.</S.Copy>
-      <span>
-        <a className="up" href="#aboutMe">
+      <span className="up">
+        <a href="#aboutMe">
           <img src={pointingUp} alt="" />
         </a>
       </span>

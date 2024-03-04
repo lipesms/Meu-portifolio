@@ -67,3 +67,33 @@ export const ProjectInfos = styled.div`
     }
   }
 `
+
+export const SeeMore = styled.a`
+  position: relative;
+  align-self: flex-end;
+  font-size: 16px;
+  color: ${variables.cinzaClaro};
+  z-index: 1;
+
+  &:after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.3;
+    top: 100%;
+    left: -10px;
+    transition: 0.4s;
+  }
+
+  &:hover:after {
+    width: calc(100% + 20px);
+    opacity: 1;
+  }
+  &:hover {
+    color: #fff;
+  }
+`

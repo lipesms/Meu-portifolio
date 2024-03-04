@@ -2,9 +2,9 @@ import { useSelector } from 'react-redux'
 
 import { RootReducer } from '../../store'
 
-import linkedin from '../../assets/linkedin.png'
-import github from '../../assets/github.png'
-import instagram from '../../assets/instagram.png'
+import linkedin from '../../assets/icons/linkedin.png'
+import github from '../../assets/icons/github.png'
+import instagram from '../../assets/icons/instagram.png'
 
 import * as S from './styles'
 
