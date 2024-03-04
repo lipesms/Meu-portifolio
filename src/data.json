@@ -31,7 +31,17 @@
     {
       "title": "Agenda de tarefas",
       "description": "O projeto se trata de uma página para armazenar tarefas em lista, com design simples para facilitar sua usabilidade, este site foi criado com principal objetivo o estudo e funcionalidades do Redux toolkit.",
-      "image": "https://lipesms.github.io/Meu-portifolio/src/assets/critiquei.png"
+      "image": "https://lipesms.github.io/lsms/src/assets/beetlejuice.png"
+    },
+    {
+      "title": "Sunnyside!",
+      "description": "O site Critiquei! é uma página voltada para reunir criticas de cinema e medir a satisfação dos espectadores com determinada experiência. seja um filme ou uma série.",
+      "image": "https://lipesms.github.io/lsms/src/assets/sunnyside.png"
+    },
+    {
+      "title": "Critiquei!",
+      "description": "A site Sunnyside é uma empresa voltada para o auxilio e suporte criativo de sua empresa, ou projeto. Com isso foi desenvolvida uma landingpage onde os conceitos e valores da empresa possam estar claros a possiveis clientes.",
+      "image": "https://lipesms.github.io/lsms/src/assets/critiquei.png"
     }
   ],
   "technologies":{
