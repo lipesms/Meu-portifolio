@@ -11,16 +11,26 @@
     {
       "title": "Beetlejuice: O musical",
       "description": "O projeto se trata de uma landpage com foco em passar informações da peça de teatro da broadway: “Beetlejuice - O musical, o musical, o musical” dentro de um design conciso e com foco na experiencia do usuário.",
-      "image": "https://lipesms.github.io/Meu-portifolio/src/assets/beetlejuice.png"
+      "image": "https://lipesms.github.io/lsms/src/assets/previewProjects/beetlejuice_preview.png"
     },
     {
       "title": "Sunnyside!",
-      "description": "O site Critiquei! é uma página voltada para reunir criticas de cinema e medir a satisfação dos espectadores com determinada experiência. seja um filme ou uma série.",
-      "image": "https://lipesms.github.io/Meu-portifolio/src/assets/sunnyside.png"
+      "description": "A site Sunnyside é uma empresa voltada para o auxilio e suporte criativo de sua empresa, ou projeto. Com isso foi desenvolvida uma landingpage onde os conceitos e valores da empresa possam estar claros a possiveis clientes.",
+      "image": "https://lipesms.github.io/lsms/src/assets/previewProjects/sunnyside_preview.jpg"
     },
     {
-      "title": "Critiquei!",
-      "description": "A site Sunnyside é uma empresa voltada para o auxilio e suporte criativo de sua empresa, ou projeto. Com isso foi desenvolvida uma landingpage onde os conceitos e valores da empresa possam estar claros a possiveis clientes.",
+      "title": "Warner Tour",
+      "description": "O site Warner Experience é uma página voltada para ser a porta de entrada para os eventos da warner no Brasil.",
+      "image": "https://lipesms.github.io/Meu-portifolio/src/assets/critiquei.png"
+    },
+    {
+      "title": "Rating component",
+      "description": "O Rating component é um software simples para medir a satisfação dos usuários com determinada experiência, seja em sites, ou atendimentos presenciais, como em farmácias ou lojas no geral.",
+      "image": "https://lipesms.github.io/Meu-portifolio/src/assets/critiquei.png"
+    },
+    {
+      "title": "Agenda de tarefas",
+      "description": "O projeto se trata de uma página para armazenar tarefas em lista, com design simples para facilitar sua usabilidade, este site foi criado com principal objetivo o estudo e funcionalidades do Redux toolkit.",
       "image": "https://lipesms.github.io/Meu-portifolio/src/assets/critiquei.png"
     }
   ],
