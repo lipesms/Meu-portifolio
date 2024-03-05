@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <S.Projects id="projects">
       {itens.map((project) => (
-        <a href="" key={project.title}>
+        <a href={project.url} key={project.title}>
           <S.Project>
             <S.ProjectImage
               src={project.image}
