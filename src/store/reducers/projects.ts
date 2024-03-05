@@ -4,6 +4,7 @@ type ProjectsType = {
   title: string
   description: string
   image: string
+  url: string
 }
 
 type ProjectsState = {
@@ -15,7 +16,8 @@ const initialState: ProjectsState = {
     {
       title: '',
       description: '',
-      image: ''
+      image: '',
+      url: ''
     }
   ]
 }
