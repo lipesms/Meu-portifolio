@@ -1,17 +1,15 @@
 import { configureStore } from '@reduxjs/toolkit'
 
-import projectsReducer from './reducers/projects'
-import AboutMeReducer from './reducers/aboutMe'
-import TechnologiesReducer from './reducers/technologies'
 import navBarSlice from './reducers/navBar'
+import api from '../services/api'
 
 const store = configureStore({
   reducer: {
-    projects: projectsReducer,
-    aboutMe: AboutMeReducer,
-    technologies: TechnologiesReducer,
-    navBar: navBarSlice
-  }
+    navBar: navBarSlice,
+    [api.reducerPath]: api.reducer
+  },
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware().concat(api.middleware)
 })
 
 export type RootReducer = ReturnType<typeof store.getState>
