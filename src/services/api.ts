@@ -19,7 +19,7 @@ type technologies = {
 
 const api = createApi({
   baseQuery: fetchBaseQuery({
-    baseUrl: 'https://teste-iota-ebon.vercel.app/data'
+    baseUrl: 'https://lipesms.github.io/lsms/src/data'
   }),
   endpoints: (builder) => ({
     getAboutMe: builder.query<AboutMe, void>({
