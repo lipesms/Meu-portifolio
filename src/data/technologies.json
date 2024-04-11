@@ -1,0 +1,23 @@
+{
+    "myLanguages": [
+      "Html",
+      "Css",
+      "Javascript",
+      "React",
+      "Less",
+      "Sass",
+      "Typescript"
+    ],
+    "tools": [
+      "redux",
+      "Rest API",
+      "Jest",
+      "Git",
+      "Grunt",
+      "Github",
+      "VScode",
+      "Cypress",
+      "JQuery",
+      "Bootstrap"
+    ]
+  }
