@@ -12,7 +12,7 @@ const Footer = () => {
         <a href="https://www.typescriptlang.org/">Typescript</a>, deploy pela{' '}
         <a href="https://vercel.com/">Vercel</a>. Todos os textos utilizando
         Roboto e ícones pela
-        <a href="https://www.flaticon.com/br/">flaticon</a>.
+        <a href="https://www.flaticon.com/br/"> flaticon</a>.
       </S.DevelopmentInfos>
       <S.Copy>© Copyright 2024. Feito por Felipe Martins.</S.Copy>
       <span className="up">
