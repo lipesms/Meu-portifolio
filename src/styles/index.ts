@@ -14,6 +14,10 @@ html {
     font-family: Roboto, sans-serif;
     font-size: 1.1rem;
     color: #fff;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
   }
 
   body{
