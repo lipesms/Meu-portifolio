@@ -15,10 +15,8 @@ const Footer = () => {
         <a href="https://www.flaticon.com/br/"> flaticon</a>.
       </S.DevelopmentInfos>
       <S.Copy>© Copyright 2024. Feito por Felipe Martins.</S.Copy>
-      <span className="up">
-        <a href="#aboutMe">
-          <img src={pointingUp} alt="" />
-        </a>
+      <span onClick={() => window.scrollTo(0, 0)} className="up">
+        <img src={pointingUp} alt="" />
       </span>
     </S.Foot>
   )

@@ -18,6 +18,7 @@ export const Foot = styled.footer`
 
     img {
       max-width: 48px;
+      cursor: pointer;
     }
 
     &:hover {
